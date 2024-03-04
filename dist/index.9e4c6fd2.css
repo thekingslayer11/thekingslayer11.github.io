@@ -1,0 +1,1779 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navbar-child {
+  width: 1440px;
+  max-width: 100%;
+  height: 123px;
+  display: none;
+  position: relative;
+}
+
+.contact, .dr, .projects, .resume {
+  font-weight: 200;
+  position: relative;
+}
+
+.dr {
+  font-size: inherit;
+  white-space: nowrap;
+  margin: 0;
+  font-family: inherit;
+}
+
+.contact, .projects, .resume {
+  flex: 1;
+}
+
+.sun-fill-1-icon {
+  cursor: pointer;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  min-height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.navbar, .secondary-call-to-action, .sidebar {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+.secondary-call-to-action {
+  font-size: var(--font-size-lg);
+  justify-content: flex-start;
+  gap: 0 30px;
+  width: 316px;
+}
+
+.navbar, .sidebar {
+  max-width: 100%;
+}
+
+.sidebar {
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+  width: 1066px;
+}
+
+.navbar {
+  background-color: var(--color-gray-200);
+  padding: var(--padding-28xl) var(--padding-13xl) var(--padding-28xl) var(--padding-xl);
+  box-sizing: border-box;
+  z-index: 99;
+  justify-content: center;
+  align-self: stretch;
+  position: sticky;
+  top: 0;
+}
+
+.hey-im {
+  font-weight: 200;
+  position: relative;
+}
+
+.darlene-robertson {
+  font-size: var(--font-size-77xl);
+  font-weight: 500;
+  font-family: var(--font-gt-walsheim-pro);
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(89.81deg, #9845e8, #33d2ff 54.95%, #dd5789);
+  -webkit-background-clip: text;
+  align-self: stretch;
+  margin: 0;
+  position: relative;
+}
+
+.image-placeholder {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 18px 0;
+  width: 805px;
+  max-width: 100%;
+  display: flex;
+}
+
+.im-a-software {
+  font-size: var(--font-size-lg);
+  color: #f0f0f0;
+  text-align: justify;
+  width: 1080px;
+  font-weight: 200;
+  line-height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.subtext-block {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px 0;
+  max-width: 100%;
+  display: flex;
+}
+
+.say-hi {
+  font-size: inherit;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.frame-child {
+  width: 33px;
+  height: 7.4px;
+  position: relative;
+}
+
+.main-text-block, .say-hi-parent {
+  font-size: var(--font-size-5xl);
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0 12px;
+  display: flex;
+}
+
+.main-text-block {
+  padding: 0 0 var(--padding-mid);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px 0;
+  max-width: 100%;
+}
+
+.featured-projects1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  position: relative;
+}
+
+.gradientssugar-cream-icon {
+  border-radius: var(--br-9xs);
+  object-fit: cover;
+  flex-shrink: 0;
+  align-self: stretch;
+  max-width: 100%;
+  height: 338px;
+  position: relative;
+  overflow: hidden;
+}
+
+.intenseproxy {
+  font-size: inherit;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 300;
+  position: relative;
+}
+
+.github-fill-1-icon, .link-m-1-icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  min-height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.dropdown-menu, .link-button {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+.dropdown-menu {
+  justify-content: center;
+  gap: 0 19px;
+}
+
+.link-button {
+  justify-content: space-between;
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+
+.proxy-provider-website, .react-bootstrap {
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.proxy-provider-website {
+  font-size: var(--font-size-base);
+  color: var(--color-silver-200);
+  width: 453px;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.react-bootstrap {
+  font-size: var(--font-size-sm);
+  color: var(--color-lightskyblue);
+}
+
+.container-box, .image-frame {
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.image-frame {
+  justify-content: center;
+  align-self: stretch;
+  gap: 12px 0;
+}
+
+.container-box {
+  flex: 1;
+  justify-content: flex-start;
+  gap: 31px 0;
+  min-width: 332px;
+}
+
+.gradientscold-breeze-icon {
+  border-radius: var(--br-9xs);
+  object-fit: cover;
+  flex-shrink: 0;
+  align-self: stretch;
+  max-width: 100%;
+  height: 338px;
+  position: relative;
+  overflow: hidden;
+}
+
+.aape-coin {
+  font-size: inherit;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 300;
+  position: relative;
+}
+
+.github-fill-1-icon1, .link-m-1-icon1 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  min-height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.divider, .line {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+.line {
+  justify-content: center;
+  gap: 0 19px;
+}
+
+.divider {
+  justify-content: space-between;
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+
+.site-for-a, .vue-nuxt {
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.site-for-a {
+  font-size: var(--font-size-base);
+  color: var(--color-silver-200);
+  width: 453px;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.vue-nuxt {
+  font-size: var(--font-size-sm);
+  color: var(--color-lightskyblue);
+}
+
+.gradient-backgrounds, .heading-text, .quote-text {
+  align-items: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.quote-text {
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  gap: 12px 0;
+}
+
+.gradient-backgrounds, .heading-text {
+  justify-content: flex-start;
+}
+
+.heading-text {
+  flex-direction: column;
+  flex: 1;
+  gap: 31px 0;
+  min-width: 332px;
+}
+
+.gradient-backgrounds {
+  flex-flow: wrap;
+  align-self: stretch;
+  gap: 0 57px;
+}
+
+.gradientsearth-icon {
+  border-radius: var(--br-9xs);
+  object-fit: cover;
+  flex-shrink: 0;
+  align-self: stretch;
+  max-width: 100%;
+  height: 338px;
+  position: relative;
+  overflow: hidden;
+}
+
+.blockchain-explorer-hive {
+  font-size: inherit;
+  flex-shrink: 0;
+  width: 400px;
+  max-width: 100%;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 300;
+  display: inline-block;
+  position: relative;
+}
+
+.github-fill-1-icon2, .link-m-1-icon2 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  min-height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.github-fill-1-parent {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0 19px;
+  display: flex;
+}
+
+.blockchain-explorer-hive-atte-parent {
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  flex-direction: row;
+  max-width: 100%;
+  display: flex;
+}
+
+.react-tailwindcss, .sidechain-explorer-open {
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.sidechain-explorer-open {
+  font-size: var(--font-size-base);
+  color: var(--color-silver-200);
+  width: 453px;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.react-tailwindcss {
+  font-size: var(--font-size-sm);
+  color: var(--color-lightskyblue);
+}
+
+.frame-parent, .gradientsearth-parent {
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.frame-parent {
+  justify-content: center;
+  align-self: stretch;
+  gap: 12px 0;
+}
+
+.gradientsearth-parent {
+  flex: 1;
+  justify-content: flex-start;
+  gap: 31px 0;
+  min-width: 332px;
+}
+
+.gradientssweet-rain-icon {
+  border-radius: var(--br-9xs);
+  object-fit: cover;
+  flex-shrink: 0;
+  align-self: stretch;
+  max-width: 100%;
+  height: 338px;
+  position: relative;
+  overflow: hidden;
+}
+
+.gitprofile {
+  font-size: inherit;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 300;
+  position: relative;
+}
+
+.github-fill-1-icon3, .link-m-1-icon3 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  min-height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.github-fill-1-group, .gitprofile-parent {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+.github-fill-1-group {
+  justify-content: center;
+  gap: 0 19px;
+}
+
+.gitprofile-parent {
+  justify-content: space-between;
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+
+.a-nicer-look, .react-redux {
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.a-nicer-look {
+  font-size: var(--font-size-base);
+  color: var(--color-silver-200);
+  width: 453px;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.react-redux {
+  font-size: var(--font-size-sm);
+  color: var(--color-lightskyblue);
+}
+
+.frame-group {
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 12px 0;
+  max-width: 100%;
+  display: flex;
+}
+
+.gradient-backgrounds1, .gradientssweet-rain-parent {
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.gradientssweet-rain-parent {
+  flex-direction: column;
+  flex: 1;
+  gap: 31px 0;
+  min-width: 332px;
+}
+
+.gradient-backgrounds1 {
+  flex-flow: wrap;
+  align-self: stretch;
+  gap: 0 57px;
+}
+
+.gradientscold-breeze-icon1 {
+  border-radius: var(--br-9xs);
+  object-fit: cover;
+  background-color: #0000;
+  border: 0;
+  outline: 0;
+  flex-shrink: 0;
+  align-self: stretch;
+  width: auto;
+  max-width: 100%;
+  height: 338px;
+  position: relative;
+  overflow: hidden;
+}
+
+.moviedb {
+  font-size: inherit;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 300;
+  position: relative;
+}
+
+.github-fill-1-icon4, .link-m-1-icon4 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  min-height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.github-fill-1-container, .moviedb-parent {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+.github-fill-1-container {
+  justify-content: center;
+  gap: 0 19px;
+}
+
+.moviedb-parent {
+  justify-content: space-between;
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+
+.reactjs-redux, .tv-application-displays {
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.tv-application-displays {
+  font-size: var(--font-size-base);
+  color: var(--color-silver-200);
+  width: 453px;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.reactjs-redux {
+  font-size: var(--font-size-sm);
+  color: var(--color-lightskyblue);
+}
+
+.frame-container, .gradientscold-breeze-parent {
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.frame-container {
+  justify-content: center;
+  align-self: stretch;
+  gap: 12px 0;
+}
+
+.gradientscold-breeze-parent {
+  flex: 1;
+  justify-content: flex-start;
+  gap: 31px 0;
+  min-width: 332px;
+}
+
+.gradientsice-cream-icon {
+  border-radius: var(--br-9xs);
+  object-fit: cover;
+  flex-shrink: 0;
+  align-self: stretch;
+  max-width: 100%;
+  height: 338px;
+  position: relative;
+  overflow: hidden;
+}
+
+.soundify {
+  font-size: inherit;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 300;
+  position: relative;
+}
+
+.github-fill-1-icon5, .link-m-1-icon5 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  min-height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.github-fill-1-parent1, .soundify-parent {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+.github-fill-1-parent1 {
+  justify-content: center;
+  gap: 0 19px;
+}
+
+.soundify-parent {
+  justify-content: space-between;
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+
+.music-search-application, .vuejs-vuex {
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.music-search-application {
+  font-size: var(--font-size-base);
+  color: var(--color-silver-200);
+  width: 453px;
+  max-width: 100%;
+  display: inline-block;
+}
+
+.vuejs-vuex {
+  font-size: var(--font-size-sm);
+  color: var(--color-lightskyblue);
+}
+
+.frame-div {
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 12px 0;
+  max-width: 100%;
+  display: flex;
+}
+
+.gradient-backgrounds2, .gradientsice-cream-parent {
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.gradientsice-cream-parent {
+  flex-direction: column;
+  flex: 1;
+  gap: 31px 0;
+  min-width: 332px;
+}
+
+.gradient-backgrounds2 {
+  flex-flow: wrap;
+  align-self: stretch;
+  gap: 0 57px;
+}
+
+.gradientsred-sun-icon {
+  border-radius: var(--br-9xs);
+  object-fit: cover;
+  flex-shrink: 0;
+  align-self: stretch;
+  max-width: 100%;
+  height: 338px;
+  position: relative;
+  overflow: hidden;
+}
+
+.mu6icbot {
+  font-size: inherit;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 300;
+  position: relative;
+}
+
+.github-fill-1-icon6, .link-m-1-icon6 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  min-height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.button, .rectangle {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+.button {
+  justify-content: center;
+  gap: 0 19px;
+}
+
+.rectangle {
+  justify-content: space-between;
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+
+.discord-library-, .discord-music-bot {
+  max-width: 100%;
+  font-weight: 300;
+  line-height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.discord-music-bot {
+  font-size: var(--font-size-base);
+  color: var(--color-silver-200);
+  width: 453px;
+}
+
+.discord-library- {
+  font-size: var(--font-size-sm);
+  color: var(--color-lightskyblue);
+}
+
+.featured-projects, .gradientfill, .projects-cards, .textblock {
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.textblock {
+  justify-content: center;
+  align-self: stretch;
+  gap: 12px 0;
+}
+
+.featured-projects, .gradientfill, .projects-cards {
+  justify-content: flex-start;
+}
+
+.gradientfill {
+  gap: 31px 0;
+  width: 511px;
+}
+
+.featured-projects, .projects-cards {
+  font-size: var(--font-size-5xl);
+  align-self: stretch;
+  gap: 60px 0;
+}
+
+.featured-projects {
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+  gap: 51px 0;
+}
+
+.github-logo {
+  border-top: .3px solid var(--color-silver-100);
+  box-sizing: border-box;
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+}
+
+.experience1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  position: relative;
+}
+
+.frontend-engineer-remote {
+  font-size: inherit;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 300;
+  position: relative;
+}
+
+.jul-2021- {
+  font-size: var(--font-size-base);
+  color: var(--color-silver-200);
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.ellipse {
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  flex-direction: row;
+  display: flex;
+}
+
+.selfbook-us {
+  font-size: var(--font-size-sm);
+  color: var(--color-lightskyblue);
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.developing-screens-and, .fixing-ui-issues {
+  align-self: stretch;
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.vector {
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 12px 0;
+  display: flex;
+}
+
+.software-developer-remote {
+  font-size: inherit;
+  max-width: 100%;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 300;
+  display: inline-block;
+  position: relative;
+}
+
+.jun-2021- {
+  font-size: var(--font-size-base);
+  color: var(--color-silver-200);
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.remote-developer {
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  flex-direction: row;
+  max-width: 100%;
+  display: flex;
+}
+
+.wevoz-italy {
+  font-size: var(--font-size-sm);
+  color: var(--color-lightskyblue);
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.consulting-on-frontend, .developing-mobile-and, .developing-web-scraping, .helping-with-php {
+  align-self: stretch;
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.polygon {
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 12px 0;
+  max-width: 100%;
+  display: flex;
+}
+
+.frontend-engineer-contractor {
+  font-size: inherit;
+  max-width: 100%;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 300;
+  display: inline-block;
+  position: relative;
+}
+
+.mar-2021- {
+  font-size: var(--font-size-base);
+  color: var(--color-silver-200);
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.frontend-engineer-contractor-parent {
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  flex-direction: row;
+  max-width: 100%;
+  display: flex;
+}
+
+.freebeings, .using-react-and, .working-on-web {
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.freebeings {
+  font-size: var(--font-size-sm);
+  color: var(--color-lightskyblue);
+}
+
+.using-react-and, .working-on-web {
+  align-self: stretch;
+}
+
+.vector1 {
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 12px 0;
+  max-width: 100%;
+  display: flex;
+}
+
+.frontend-developer-in {
+  font-size: inherit;
+  max-width: 100%;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 300;
+  display: inline-block;
+  position: relative;
+}
+
+.feb-2021- {
+  font-size: var(--font-size-base);
+  color: var(--color-silver-200);
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.frontend-developer-in-office-parent {
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  flex-direction: row;
+  max-width: 100%;
+  display: flex;
+}
+
+.tdf-algeria {
+  font-size: var(--font-size-sm);
+  color: var(--color-lightskyblue);
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.convert-designs-into, .frequently-working-on, .made-landing-pages {
+  align-self: stretch;
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.landing-page-maker {
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 12px 0;
+  max-width: 100%;
+  display: flex;
+}
+
+.frontend-engineer-freelance {
+  font-size: inherit;
+  max-width: 100%;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 300;
+  display: inline-block;
+  position: relative;
+}
+
+.may-2021- {
+  font-size: var(--font-size-base);
+  color: var(--color-silver-200);
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.frontend-engineer-freelance-parent {
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-xl);
+  flex-direction: row;
+  max-width: 100%;
+  display: flex;
+}
+
+.upwork {
+  font-size: var(--font-size-sm);
+  color: var(--color-lightskyblue);
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.star-ratings-and, .successfully-completed-numerou, .with-an-100 {
+  margin: 0;
+}
+
+.successfully-completed-numerou-container {
+  font-size: var(--font-size-base);
+  color: var(--color-silver-200);
+  align-self: stretch;
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.vector2 {
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 12px 0;
+  max-width: 100%;
+  display: flex;
+}
+
+.software-developer-remote1 {
+  font-size: inherit;
+  max-width: 100%;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 300;
+  display: inline-block;
+  position: relative;
+}
+
+.nov-2018- {
+  font-size: var(--font-size-base);
+  color: var(--color-silver-200);
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.software-developer-remote-parent {
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-xl);
+  flex-direction: row;
+  max-width: 100%;
+  display: flex;
+}
+
+.shoppy {
+  font-size: var(--font-size-sm);
+  color: var(--color-lightskyblue);
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.vue-and-nuxt, .worked-on-various {
+  margin: 0;
+}
+
+.worked-on-various-container {
+  font-size: var(--font-size-base);
+  color: var(--color-silver-200);
+  align-self: stretch;
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.divider1, .experience, .vector3 {
+  align-items: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.vector3 {
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  gap: 12px 0;
+}
+
+.divider1, .experience {
+  justify-content: flex-start;
+}
+
+.divider1 {
+  font-size: var(--font-size-base);
+  color: var(--color-silver-200);
+  flex-direction: column;
+  flex: 1;
+  gap: 54px 0;
+  min-width: 554px;
+}
+
+.experience {
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+  flex-flow: wrap;
+  gap: 0 95px;
+  width: 1055px;
+}
+
+.github-logo1 {
+  border-top: .3px solid var(--color-silver-100);
+  box-sizing: border-box;
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+}
+
+.education1 {
+  text-transform: uppercase;
+}
+
+.div, .education1, .university-of-toronto1 {
+  font-weight: 300;
+  position: relative;
+}
+
+.university-of-toronto1 {
+  font-size: inherit;
+  margin: 0;
+  font-family: inherit;
+}
+
+.div {
+  font-size: var(--font-size-base);
+  color: var(--color-silver-200);
+  line-height: 24px;
+}
+
+.university-of-toronto-parent {
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-xl);
+  flex-direction: row;
+  display: flex;
+}
+
+.bachelors-degree-in, .canada {
+  font-size: var(--font-size-sm);
+  color: var(--color-lightskyblue);
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.bachelors-degree-in {
+  font-size: var(--font-size-base);
+  color: var(--color-silver-200);
+  align-self: stretch;
+}
+
+.university-of-toronto {
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 12px 0;
+  display: flex;
+}
+
+.div1, .etm-ibn-rochd {
+  font-weight: 300;
+  position: relative;
+}
+
+.etm-ibn-rochd {
+  font-size: inherit;
+  margin: 0;
+  font-family: inherit;
+}
+
+.div1 {
+  font-size: var(--font-size-base);
+  color: var(--color-silver-200);
+  line-height: 24px;
+}
+
+.etm-ibn-rochd-h2it-parent {
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-xl);
+  flex-direction: row;
+  display: flex;
+}
+
+.canada1, .certified-fullstack-web {
+  font-size: var(--font-size-sm);
+  color: var(--color-lightskyblue);
+  font-weight: 300;
+  line-height: 24px;
+  position: relative;
+}
+
+.certified-fullstack-web {
+  font-size: var(--font-size-base);
+  color: var(--color-silver-200);
+  align-self: stretch;
+}
+
+.university-of-toronto2 {
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 12px 0;
+  display: flex;
+}
+
+.education, .education-hub {
+  align-items: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.education-hub {
+  font-size: var(--font-size-5xl);
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 54px 0;
+  width: 852px;
+}
+
+.education {
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+  flex-direction: row;
+  width: 1055px;
+}
+
+.linked-in-button {
+  border-top: .3px solid var(--color-silver-100);
+  box-sizing: border-box;
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+}
+
+.contact1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  position: relative;
+}
+
+.mail-fill-1-icon {
+  z-index: 2;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  min-height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-email-child {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-silver-100);
+  box-sizing: border-box;
+  width: 210px;
+  height: 49px;
+  display: none;
+  position: relative;
+}
+
+.send-an-email {
+  font-size: var(--font-size-base);
+  font-weight: 300;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-silver-200);
+  text-align: left;
+  position: relative;
+}
+
+.btn-email {
+  cursor: pointer;
+  border: 1px solid var(--color-silver-100);
+  padding: var(--padding-smi) var(--padding-18xl) var(--padding-xs) var(--padding-16xl);
+  border-radius: var(--br-9xs);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: var(--gap-4xs);
+  z-index: 1;
+  background-color: #0000;
+  flex-direction: row;
+  flex: 1;
+  min-width: 129px;
+  max-width: 210px;
+  display: flex;
+}
+
+.linkedin-fill-1-icon {
+  z-index: 2;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-linkedin-child {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-silver-100);
+  box-sizing: border-box;
+  width: 210px;
+  height: 49px;
+  display: none;
+  position: relative;
+}
+
+.linkedin {
+  font-size: var(--font-size-base);
+  font-weight: 300;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-silver-200);
+  text-align: left;
+  position: relative;
+}
+
+.btn-linkedin, .linkedin-wrapper {
+  padding: var(--padding-11xs) 0 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.btn-linkedin {
+  cursor: pointer;
+  border: 1px solid var(--color-silver-100);
+  padding: var(--padding-xs) var(--padding-39xl) var(--padding-2xs) var(--padding-38xl);
+  border-radius: var(--br-9xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  z-index: 1;
+  background-color: #0000;
+  flex-direction: row;
+  flex: .6838;
+  min-width: 129px;
+  max-width: 210px;
+}
+
+.upwork-icon {
+  z-index: 2;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  min-height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-upwork-child {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-silver-100);
+  box-sizing: border-box;
+  width: 210px;
+  height: 49px;
+  display: none;
+  position: relative;
+}
+
+.upwork1 {
+  font-size: var(--font-size-base);
+  font-weight: 300;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-silver-200);
+  text-align: left;
+  position: relative;
+}
+
+.btn-upwork {
+  cursor: pointer;
+  border: 1px solid var(--color-silver-100);
+  padding: var(--padding-smi) var(--padding-42xl) var(--padding-xs) var(--padding-40xl);
+  border-radius: var(--br-9xs);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+  z-index: 1;
+  background-color: #0000;
+  flex-direction: row;
+  flex: .6471;
+  min-width: 129px;
+  max-width: 210px;
+  display: flex;
+}
+
+.github-fill-2-icon {
+  z-index: 2;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  min-height: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-github-child {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-silver-100);
+  box-sizing: border-box;
+  width: 210px;
+  height: 49px;
+  display: none;
+  position: relative;
+}
+
+.github {
+  font-size: var(--font-size-base);
+  font-weight: 300;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--color-silver-200);
+  text-align: left;
+  position: relative;
+}
+
+.btn, .btn-github, .contact-info {
+  flex-direction: row;
+  align-items: flex-start;
+  display: flex;
+}
+
+.btn-github {
+  cursor: pointer;
+  border: 1px solid var(--color-silver-100);
+  padding: var(--padding-smi) var(--padding-45xl) var(--padding-xs) var(--padding-44xl);
+  border-radius: var(--br-9xs);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  z-index: 1;
+  background-color: #0000;
+  flex: .5956;
+  min-width: 129px;
+  max-width: 210px;
+}
+
+.btn, .contact-info {
+  max-width: 100%;
+}
+
+.btn {
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  justify-content: center;
+  gap: 0 12px;
+  width: 877px;
+}
+
+.contact-info {
+  justify-content: space-between;
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+
+.frame-with-button, .portoflio-dark, .upwork-logo {
+  flex-direction: column;
+  justify-content: flex-start;
+  display: flex;
+}
+
+.frame-with-button {
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 103px 0;
+  max-width: 100%;
+}
+
+.portoflio-dark, .upwork-logo {
+  box-sizing: border-box;
+}
+
+.upwork-logo {
+  padding: 0 var(--padding-xl);
+  align-items: flex-start;
+  gap: 103px 0;
+  width: 1120px;
+  max-width: 100%;
+}
+
+.portoflio-dark {
+  background-color: var(--color-gray-200);
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+  align-items: center;
+  gap: 117px 0;
+  width: 100%;
+  padding: 0 0 118px;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (width <= 1125px) {
+  .projects-cards {
+    gap: 60px 0;
+  }
+
+  .experience {
+    gap: 0 95px;
+  }
+
+  .frame-with-button, .upwork-logo {
+    gap: 103px 0;
+  }
+}
+
+@media screen and (width <= 1025px) {
+  .darlene-robertson {
+    font-size: var(--font-size-29xl);
+  }
+
+  .contact-info, .education {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (width <= 750px) {
+  .main-text-block {
+    gap: 40px 0;
+  }
+
+  .container-box, .heading-text {
+    gap: 31px 0;
+  }
+
+  .gradient-backgrounds {
+    gap: 0 57px;
+  }
+
+  .blockchain-explorer-hive-atte-parent {
+    flex-wrap: wrap;
+  }
+
+  .gradientsearth-parent, .gradientssweet-rain-parent {
+    gap: 31px 0;
+  }
+
+  .gradient-backgrounds1 {
+    gap: 0 57px;
+  }
+
+  .gradientscold-breeze-parent, .gradientsice-cream-parent {
+    gap: 31px 0;
+  }
+
+  .gradient-backgrounds2 {
+    gap: 0 57px;
+  }
+
+  .gradientfill {
+    gap: 31px 0;
+  }
+
+  .featured-projects {
+    gap: 51px 0;
+  }
+
+  .ellipse, .frontend-developer-in-office-parent, .frontend-engineer-contractor-parent, .frontend-engineer-freelance-parent, .remote-developer, .software-developer-remote-parent {
+    flex-wrap: wrap;
+  }
+
+  .divider1 {
+    min-width: 100%;
+  }
+
+  .experience {
+    gap: 0 95px;
+  }
+
+  .btn {
+    flex-wrap: wrap;
+  }
+
+  .frame-with-button, .upwork-logo {
+    gap: 103px 0;
+  }
+
+  .portoflio-dark {
+    gap: 117px 0;
+  }
+}
+
+@media screen and (width <= 450px) {
+  .darlene-robertson {
+    font-size: var(--font-size-10xl);
+  }
+
+  .say-hi {
+    line-height: 19px;
+  }
+
+  .intenseproxy, .say-hi {
+    font-size: var(--font-size-lgi);
+  }
+
+  .link-button {
+    flex-wrap: wrap;
+  }
+
+  .aape-coin {
+    font-size: var(--font-size-lgi);
+  }
+
+  .divider {
+    flex-wrap: wrap;
+  }
+
+  .blockchain-explorer-hive, .gitprofile {
+    font-size: var(--font-size-lgi);
+  }
+
+  .gitprofile-parent {
+    flex-wrap: wrap;
+  }
+
+  .moviedb {
+    font-size: var(--font-size-lgi);
+  }
+
+  .moviedb-parent {
+    flex-wrap: wrap;
+  }
+
+  .soundify {
+    font-size: var(--font-size-lgi);
+  }
+
+  .soundify-parent {
+    flex-wrap: wrap;
+  }
+
+  .mu6icbot {
+    font-size: var(--font-size-lgi);
+  }
+
+  .rectangle {
+    flex-wrap: wrap;
+  }
+
+  .frontend-developer-in, .frontend-engineer-contractor, .frontend-engineer-freelance, .frontend-engineer-remote, .software-developer-remote, .software-developer-remote1 {
+    font-size: var(--font-size-lgi);
+  }
+
+  .divider1 {
+    gap: 54px 0;
+  }
+
+  .university-of-toronto1 {
+    font-size: var(--font-size-lgi);
+  }
+
+  .university-of-toronto-parent {
+    flex-wrap: wrap;
+  }
+
+  .etm-ibn-rochd {
+    font-size: var(--font-size-lgi);
+  }
+
+  .etm-ibn-rochd-h2it-parent {
+    flex-wrap: wrap;
+  }
+
+  .education-hub {
+    gap: 54px 0;
+  }
+
+  .btn-github, .btn-linkedin, .btn-upwork {
+    flex: 1;
+  }
+
+  .portoflio-dark {
+    gap: 117px 0;
+  }
+}
+/*# sourceMappingURL=index.9e4c6fd2.css.map */

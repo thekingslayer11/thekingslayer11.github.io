@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  --font-inter: Inter;
+  --font-gt-walsheim-pro: "GT Walsheim Pro";
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-sm: 14px;
+  --font-size-5xl: 24px;
+  --font-size-lgi: 19px;
+  --font-size-77xl: 96px;
+  --font-size-10xl: 29px;
+  --font-size-29xl: 48px;
+  --color-gray-100: #1a1a1a;
+  --color-gray-200: #111;
+  --color-silver-100: #c6c6c6;
+  --color-silver-200: #c4c4c4;
+  --color-white: #fff;
+  --color-lightskyblue: #6cace4;
+  --color-darkslateblue: #004e93;
+  --gap-98xl: 117px;
+  --gap-84xl: 103px;
+  --gap-xl: 20px;
+  --gap-0: 0px;
+  --gap-5xs: 8px;
+  --gap-4xs: 9px;
+  --gap-35xl: 54px;
+  --gap-xs: 12px;
+  --gap-32xl: 51px;
+  --gap-41xl: 60px;
+  --gap-12xl: 31px;
+  --gap-21xl: 40px;
+  --gap-5xl: 24px;
+  --gap-lg: 18px;
+  --padding-xl: 20px;
+  --padding-12xs: 1px;
+  --padding-smi: 13px;
+  --padding-45xl: 64px;
+  --padding-xs: 12px;
+  --padding-44xl: 63px;
+  --padding-42xl: 61px;
+  --padding-40xl: 59px;
+  --padding-39xl: 58px;
+  --padding-2xs: 11px;
+  --padding-38xl: 57px;
+  --padding-11xs: 2px;
+  --padding-18xl: 37px;
+  --padding-16xl: 35px;
+  --padding-mid: 17px;
+  --padding-28xl: 47px;
+  --padding-13xl: 32px;
+  --br-9xs: 4px;
+}
+/*# sourceMappingURL=index.689f5f05.css.map */
