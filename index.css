@@ -1,3 +1,35 @@
+.gradientsearth-parent:hover,
+.gradientssweet-rain-parent:hover,
+.gradientscold-breeze-parent:hover,
+.gradientsice-cream-parent:hover,
+.container-box:hover,
+.heading-text:hover {
+  transform: scale(1.1);
+}
+
+.gradientsearth-parent,
+.gradientssweet-rain-parent,
+.gradientscold-breeze-parent,
+.gradientsice-cream-parent,
+.container-box,
+.heading-text {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.gradientsearth-parent img,
+.gradientssweet-rain-parent img,
+.gradientscold-breeze-parent img,
+.gradientsice-cream-parent img,
+.container-box img,
+.heading-text img {
+  transition: transform 0.3s ease;
+}
+
+
+
+
 a {
   color: inherit;
   text-decoration: none;

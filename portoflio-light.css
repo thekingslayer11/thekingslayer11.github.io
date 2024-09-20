@@ -1,3 +1,32 @@
+.gradientsearth-group:hover,
+.gradientssweet-rain-group:hover,
+.gradientscold-breeze-group:hover,
+.gradientsice-cream-group:hover,
+.gradient-background:hover,
+.arrow-shape:hover {
+  transform: scale(1.1);
+}
+
+.gradientsearth-group,
+.gradientssweet-rain-group,
+.gradientscold-breeze-group,
+.gradientsice-cream-group,
+.gradient-background,
+.arrow-shape {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.gradientsearth-group img,
+.gradientssweet-rain-group img,
+.gradientscold-breeze-group img,
+.gradientsice-cream-group img,
+.gradient-background img,
+.arrow-shape img {
+  transition: transform 0.3s ease;
+}
+
 a {
   color: inherit;
   text-decoration: none;
