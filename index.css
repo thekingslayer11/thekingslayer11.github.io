@@ -114,7 +114,7 @@ a {
   font-weight: 500;
   font-family: var(--font-gt-walsheim-pro);
   background: linear-gradient(89.81deg, #9845e8, #33d2ff 54.95%, #dd5789);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .image-placeholder {
