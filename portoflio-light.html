@@ -88,12 +88,14 @@
                         src="./public/githubfill-11.svg"
                       />
                     </a>
+                    <a href="#" onclick="openPopup(); return false;">
                       <img
                         class="link-m-1-icon9"
                         loading="lazy"
                         alt=""
                         src="./public/linkm-11.svg"
                       />
+                    </a>
                     </div>
                   </div>
                   
@@ -201,7 +203,7 @@
                         src="./public/githubfill-11.svg"
                       />
                     </a>
-                    <a href="https://app.powerbi.com/view?r=eyJrIjoiYjhkMTQzZjYtYmU0MC00MWFlLWIyODUtZmZhYWYyM2MwMTM4IiwidCI6IjJhZDk2OTM0LTQzZTUtNDFjMi05NzYxLWYzMzVmZTIxNGNjMyIsImMiOjl9&pageName=ReportSection">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiYjhkMTQzZjYtYmU0MC00MWFlLWIyODUtZmZhYWYyM2MwMTM4IiwidCI6IjJhZDk2OTM0LTQzZTUtNDFjMi05NzYxLWYzMzVmZTIxNGNjMyIsImMiOjl9&pageName=ReportSection" target="_blank">
                       <img
                         class="link-m-1-icon10"
                         alt=""
@@ -561,6 +563,49 @@
           window.location.href = "./index.html";
         });
       }
-      </script>
+    </script>
+      <script>
+        function openPopup() {
+            const url =
+                "https://onedrive.live.com/embed?resid=EA08E5A7370EF5FF%21315&authkey=%21AEvJbYnXl0tNwRA&em=2&AllowTyping=True&Item='Dashboard'!A1%3AZ40&wdHideGridlines=True&wdInConfigurator=True&wdInConfigurator=True";
+            const popupWidth = 1800; // Wider popup
+            const popupHeight = 800; // Taller popup
+
+            const left = window.innerWidth / 2 - popupWidth / 2;
+            const top = window.innerHeight / 2 - popupHeight / 2;
+
+            const popup = window.open(
+                "",
+                "",
+                `width=${popupWidth},height=${popupHeight},top=${top},left=${left}`
+            );
+            popup.document.write(`
+                <html>
+                    <head>
+                        <style>
+                            .iframe-container {
+                                width: 100%; 
+                                height: 100%; 
+                                overflow: hidden; 
+                                position: relative; 
+                            }
+                            .iframe-container iframe {
+                                position: absolute; 
+                                top: 0;
+                                left: 0;
+                                width: 100%; 
+                                height: 100%; 
+                            }
+                        </style>
+                    </head>
+                    <body>
+                        <div class="iframe-container">
+                            <iframe src="${url}" frameborder="0" scrolling="no"></iframe>
+                        </div>
+                    </body>
+                </html>
+            `);
+        }
+     </script>
   </body>
 </html>

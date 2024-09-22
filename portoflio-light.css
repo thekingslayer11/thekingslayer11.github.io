@@ -1,3 +1,18 @@
+.iframe-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .gradientsearth-group:hover,
 .gradientssweet-rain-group:hover,
 .gradientscold-breeze-group:hover,
