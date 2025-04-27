@@ -1,3 +1,12 @@
+.hover-link img {
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.hover-link:hover img {
+  transform: scale(1.1); /* makes it 10% bigger */
+  filter: brightness(1.2); /* makes it a bit brighter */
+}
+
 .iframe-container {
   width: 100%;
   height: 100%;
